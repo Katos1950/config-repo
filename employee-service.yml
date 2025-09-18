@@ -24,9 +24,6 @@ spring:
     baseline-version: 0
     validate-migration-naming: true
 
-server:
-  port: 8081
-
 eureka:
   client:
     service-url:
