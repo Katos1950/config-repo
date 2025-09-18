@@ -24,7 +24,6 @@ spring:
     baseline-version: 0
     validate-migration-naming: true
 
-
 eureka:
   client:
     service-url:
