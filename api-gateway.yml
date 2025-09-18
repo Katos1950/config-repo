@@ -17,9 +17,6 @@ spring:
             - RewritePath=/departments(?<segment>/?.*), /api/v1/departments${segment}
 
 
-server:
-  port: 8080
-
 eureka:
   client:
     service-url:
